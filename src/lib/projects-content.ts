@@ -1,0 +1,55 @@
+export const caseStudies = [
+  {
+    id: "stamped-concrete-patio",
+    title: "Stamped Concrete Patio",
+    location: "Calgary, 2025",
+    overview:
+      "Residential stamped concrete patio with custom pattern and colour. High-quality finish and sealing for durability.",
+    scope: "Design, formwork, placement, stamping, curing, sealing.",
+    equipment: "Concrete mixer, finishing tools, stamping mats.",
+    highlights: ["Custom pattern", "Client-specified colour", "Sealed finish"],
+    result: "Client satisfaction; long-lasting, low-maintenance outdoor living space.",
+  },
+  {
+    id: "artificial-landscaping",
+    title: "Artificial Landscaping – Commercial",
+    location: "Commercial",
+    overview:
+      "Commercial-grade artificial turf and hardscape integration for a high-traffic outdoor area.",
+    scope: "Site prep, base installation, artificial grass installation, edging.",
+    equipment: "Excavation, compaction, specialized turf tools.",
+    highlights: ["Water-efficient", "Low maintenance", "Year-round green"],
+    result: "Durable, sustainable appearance with minimal water use.",
+  },
+  {
+    id: "irrigation-6zone",
+    title: "Irrigation 6-Zone System",
+    location: "Residential / Commercial",
+    overview:
+      "Smart 6-zone irrigation system with controller and efficient coverage for mixed planting areas.",
+    scope: "Design, trenching, piping, heads, controller, programming.",
+    equipment: "Trencher, pipe, heads, smart controller.",
+    highlights: ["6 zones", "Smart scheduling", "Water-efficient"],
+    result: "25–40% water reduction vs. conventional irrigation; healthy plant coverage.",
+  },
+  {
+    id: "sod-installation",
+    title: "Sod Installation (1100 sq ft)",
+    location: "Residential",
+    overview: "Full sod installation for residential lawn with grading and soil prep.",
+    scope: "Grading, soil prep, sod delivery and installation, initial watering.",
+    equipment: "Grading equipment, sod cutter (as needed).",
+    highlights: ["1100 sq ft", "Quick establishment", "Quality turf"],
+    result: "Instant green lawn; establishment support provided.",
+  },
+  {
+    id: "retaining-walls",
+    title: "Retaining Walls",
+    location: "Residential / Commercial",
+    overview: "Structural and decorative retaining walls for grade change and landscaping.",
+    scope: "Excavation, base, wall units, drainage, backfill.",
+    equipment: "Excavation, compaction, masonry tools.",
+    highlights: ["Structural integrity", "Drainage", "Aesthetic finish"],
+    result: "Stable, long-lasting retaining structures with as-built documentation.",
+  },
+];
