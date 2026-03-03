@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat, Inter, Cairo, IBM_Plex_Sans_Arabic } from "next/font/google";
 import "./globals.css";
-import { LangDir } from "@/components/LangDir";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -43,9 +42,6 @@ export const metadata: Metadata = {
     "Outdoor Construction GCC",
     "Vision 2030 Landscaping",
   ],
-  openGraph: {
-    type: "website",
-  },
 };
 
 export default function RootLayout({
@@ -60,7 +56,6 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="font-body min-h-screen flex flex-col">
-        <LangDir />
         {children}
       </body>
     </html>
